@@ -9,3 +9,6 @@ function Check(value) {
     }
 }
 console.log(Check("3"));
+var str = 'hello';
+var leng = str.length;
+console.log(leng);

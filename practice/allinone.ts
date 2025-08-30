@@ -110,4 +110,33 @@
 
 // console.log(Check("3"))
 
+
+// function Variadic(...nums:number[]):number{
+//     return nums.reduce((acc,num)=>acc+num,0)
+// }
+
+// console.log(Variadic(1,2,3,4,5))
+
+
+//tuple
+// let arr:(boolean|string|number)[]=['j',4,false]
+// console.log(arr)
+
+
+// let obj:{name:string,age:number,isActive:boolean}=
+// {
+//     name:'j',
+//     age:23,
+//     isActive:false
+// }
+// console.log(obj)
+
+// function add(a:number,b:number):number
+// function add(a:string,b:string):string
+
+// function add(a:any,b:any):any{
+//     return a+b
+// }
+// console.log(add(1,3))
+
 // export {}

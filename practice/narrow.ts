@@ -9,4 +9,11 @@ function Check(value:string|number){
 
 console.log(Check("3"))
 
+
+
+
+let str:any='hello'
+let leng = (str as string).length
+console.log(leng)
+
 export {}
