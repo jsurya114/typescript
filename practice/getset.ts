@@ -1,4 +1,4 @@
-class Person{
+class Persons{
     private name:string
     constructor(sname:string){
         this.name=sname
@@ -12,7 +12,7 @@ class Person{
         }
     }
 }
-let p = new Person('jay')
+let p = new Persons('jay')
 console.log(p.sname)
 p.sname='Surya'
 console.log(p.sname)
